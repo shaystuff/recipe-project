@@ -2,26 +2,25 @@
 <html>
     <head>
         <title>Recipe Project</title>
-    </head>
-    <body>
+        <link rel="stylesheet" href="style.css">
+    <body class="index">
         <header>
-            <h1>On the Menu</h1>
-            <nav>
-                <a href="/viewweek/">Weekly View</a> |
-                <a href="/viewmonth/">Monthly View</a>
-                <div id="login"><a href="/login/">Login</a></div>
-            </nav>
-            <hr>
+            <h1 id="hometitle">On the Menu</h1>
         </header>
+        <nav id="indnav">
+            <a href="./login.html"class="indiv">Login</a> |
+            <a href="mealplanner.html"class="indiv">Weekly View</a> |
+            <a href="mealplanner.html"class="indiv">Monthly View</a>
+            
+        </nav>
         <article>
-            <div id="date">March 10th</div>
-            <a href="/recipe/">Recipe Planned for Day</a>
+            <time><div id="date">March 17th</div></time>
+            <div id="homewidget"><a href="recipe.html">Recipe Planned for Day</a></div>
         </article>
-        <hr>
         <footer>
-            <nav>
-                <a href="/shoppinglist/">View Shopping List</a> |
-                <a href="/recipes/">Add/View Recipes</a>
+            <nav id="homefooter">
+                <a href="shoppinglist.html">View Shopping List</a> |
+                <a href="recipes.html">Add/View Recipes</a>
             </nav>
         </footer>
     </body>
